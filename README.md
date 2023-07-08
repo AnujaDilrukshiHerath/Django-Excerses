@@ -17,5 +17,5 @@ GET /customer/: Get a list of all the students.
 POST /customer/: Create a new student.
 GET /customer/{id}/: Retrieve details of a student.
 PUT/PATCH /customer/{id}/: Update the status and details of a student.
-GET /customer-log/: Retrieve the 50 latest logs from the system (paginated). 
+GET /customer-log/paginated : Retrieve the 50 latest logs from the system (paginated). 
 -->
