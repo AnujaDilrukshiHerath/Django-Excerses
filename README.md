@@ -1,4 +1,12 @@
 # Django-Excerses
+Run these commands in terminal before running the application
+1. pipenv shell
+2. python manage.py runserver
+
+   if any error occur for rest framework run this after using the pipenv shell command
+3. pip install djangorestframework
+
+you these commands to view the results in postman
 <!-- 
 GET /funnel-status/: Get a list of all the funnel status.
 POST /funnel-status/: Create a new funnel status.
